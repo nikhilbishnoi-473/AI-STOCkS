@@ -74,6 +74,7 @@
     padding-top: 28px;
 }
 
+
 .text-gradient {
     background: #39ADEC;
     background: linear-gradient(to bottom right, #39ADEC 13%, #4895EF 90%);
@@ -402,9 +403,6 @@
     padding-top: 180px;
 }
 
-.max-w-557 {
-    max-width: 557px;
-}
 
 .btn_read {
     padding: 12px 24px 12px 24px;
@@ -815,9 +813,95 @@
     background: linear-gradient(107.02deg, #00FFE1 12.76%, #6E5DF6 91.81%);
     border: 1px solid var(--white);
 }
+
+.max-w-540 {
+    max-width: 540px;
+}
+
+.max-w-716 {
+    max-width: 716px;
+}
+
+.pl_72 {
+    padding-left: 136px;
+}
+
+.pt-115 {
+    padding-top: 115px;
+}
+
+.pt-98 {
+    padding-top: 98px;
+}
+
+.pt-109 {
+    padding-top: 109px;
+}
+
+.pb-84 {
+    padding-bottom: 84px;
+}
+
+/* .after_time{
+    position: relative;
+} */
+.after_time {
+    /* content: ""; */
+    /* position: absolute; */
+    /* background-image: url(../image/png/lineline.png); */
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  */
+    max-width: 556.75px;
+    height: 737.57px;
+    top: 30px;
+    left: 170px;
+}
+
+.max-w-814 {
+    max-width: 814px;
+}
+
+.responsive1 .slick-list {
+    margin: 0 -6px;
+}
+
+.responsive1 .slick-slide {
+    margin: 0 6px;
+}
+
+.responsive .slick-list {
+    margin: 0 -6px;
+}
+
+.responsive .slick-slide {
+    margin: 0 6px;
+}
+
+ 
+
+
 @media (min-width: 1200px) {
-    .text_wrap{
+    .text_wrap {
         text-wrap: nowrap;
+    }
+    
+}
+@media (max-width: 1199.9px) {
+    .transition_l {
+        transform: translateX(0px);
+    }
+.margin_left {
+    margin-left: 0px;
+    display: flex; 
+    justify-content: center;
+}
+
+}
+
+@media (min-width: 992px) {
+    .max-w-557 {
+        max-width: 557px;
     }
 }
 
@@ -901,5 +985,27 @@
         gap: 30px;
     }
 
+    .mt__40 {
+        margin-top: 40px;
+    }
 
+    .pt__30 {
+        padding-top: 30px;
+    }
+
+    .pt-80 {
+        padding-top: 40px;
+    }
+
+    .pt-150 {
+        padding-top: 80px;
+    }
+
+
+
+}
+@media (max-width: 575px) {
+    .after_vetor::after{
+        display: none;
+    }
 }
