@@ -33,7 +33,7 @@ $('.responsive1').slick({
   speed: 2000,
   pauseOnHover: true,
   cssEase: 'linear',
-  
+
 });
 $('.responsive').slick({
   dots: false,
@@ -48,5 +48,38 @@ $('.responsive').slick({
   pauseOnHover: true,
   cssEase: 'linear',
   rtl: true,
-   
+
+});
+
+
+$(".slider").slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 2,
+  vertical: true,
+  verticalSwiping: true,
+  slidesToScroll: 1,
+  arrows: false,
+  swipeToSlide: true,
+  focusOnSelect: true,
+  autoplay: true,
+  autoplaySpeed: 0,
+  speed: 3000,
+
+});
+
+$(".slider_1").slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 2,
+  vertical: true,
+  verticalSwiping: true,
+  slidesToScroll: 1,
+  arrows: false,
+  swipeToSlide: true,
+  focusOnSelect: true,
+  autoplay: true,
+  autoplaySpeed: 0,
+  speed: 3000,
+
 });
