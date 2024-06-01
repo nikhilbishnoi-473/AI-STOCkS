@@ -41,7 +41,7 @@
     position: absolute;
     inset: 0;
     z-index: 0 !important;
-    border-radius: 8px;
+    border-radius: 0px;
     padding-bottom: 3px;
     
     background: linear-gradient(171.68deg, #00FFE1 39.97%, #6E5DF6 107.69%);
@@ -121,7 +121,7 @@
 .bg_box {
     backdrop-filter: blur(50px);
     width: 128px;
-    height: 154px;
+    height: 128px;
 }
 
 .after_line {
@@ -156,7 +156,10 @@
     backdrop-filter: blur(49px);
     background: #FFFFFF12;
 }
-
+.pt-18{
+    padding-top: 18px;
+}
+ 
 .box_1 {
     position: relative;
 }
