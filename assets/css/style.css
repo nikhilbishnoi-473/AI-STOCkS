@@ -32,14 +32,27 @@
 .op-90 {
     opacity: 90%;
 }
-
-.nav_bg {
-    background-image: url(../image/svg/hero.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-     
+ 
+.nav_bg{
+    position: relative;
 }
+.nav_bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0 !important;
+    border-radius: 8px;
+    padding-bottom: 3px;
+    
+    background: linear-gradient(171.68deg, #00FFE1 39.97%, #6E5DF6 107.69%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    transition: all ease-in-out linear;
+}
+
 
 .max-w-1140 {
     max-width: 1140px;
@@ -557,7 +570,7 @@ background: linear-gradient(to left, #6E5DF6 33%, #00FFE1 100%);
 }
 
 .first_step {
-    background: #00FFE1;
+    background: var(--bg_color_1);
     background: linear-gradient(to right, #00FFE1 0%, #6E5DF6 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -565,7 +578,7 @@ background: linear-gradient(to left, #6E5DF6 33%, #00FFE1 100%);
 }
 
 .ai_stock {
-    background: #00FFE1;
+    background:var(--bg_color_1);
     background: linear-gradient(to bottom, #00FFE1 0%, #6E5DF6 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1321,7 +1334,7 @@ background: linear-gradient(to left, #6E5DF6 33%, #00FFE1 100%);
 
 
 .trade_long {
-    background: #00FFE1;
+    background:var(--bg_color_1);
     background: linear-gradient(to right, #00FFE1 0%, #6E5DF6 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

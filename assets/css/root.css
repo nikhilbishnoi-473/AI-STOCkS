@@ -47,7 +47,11 @@
     --black-1: #010101;
     --input: #EBECF0;
     --light-black: #939393;
+    --bg_color_1: #00FFE1;
 
+}
+.bg_color_1{
+    color: var(--bg_color_1);
 }
 
 .light-black {
