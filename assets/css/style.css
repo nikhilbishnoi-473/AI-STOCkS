@@ -32,11 +32,16 @@
 .op-90 {
     opacity: 90%;
 }
- 
+.nav_bg{
+    background-image: url(../image/svg/nav_bg.svg);
+    box-shadow: 0px 0px 10px 0px  #00FFE120 ;
+}
+/*  
 .nav_bg{
     position: relative;
-}
-.nav_bg::before {
+    /* box-shadow: 0px 0px 20px 0px red;
+} */
+/* .nav_bg::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -51,7 +56,7 @@
     -webkit-mask-composite: xor;
     mask-composite: exclude;
     transition: all ease-in-out linear;
-}
+} */ */
 
 
 .max-w-1140 {
