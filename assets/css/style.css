@@ -79,7 +79,7 @@
     background: linear-gradient(107.02deg, #6E5DF6 12.76%, #00FFE1 91.81%);
 }
 
-.py-12 {
+.px-12 {
     padding-top: 12px;
     padding-bottom: 13px;
 }
@@ -377,7 +377,7 @@ background: linear-gradient(to left, #6E5DF6 33%, #00FFE1 100%);
 
 }
 
-.py-30 {
+.px-30 {
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -977,7 +977,7 @@ background: linear-gradient(to left, #6E5DF6 33%, #00FFE1 100%);
     margin-top: 60px;
 }
 
-.py-30 {
+.px-30 {
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -1068,7 +1068,7 @@ background: linear-gradient(to left, #6E5DF6 33%, #00FFE1 100%);
     margin-left: -136px;
 }
 
-.py-20 {
+.px-20 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -1788,7 +1788,7 @@ background: linear-gradient(to left, #6E5DF6 33%, #00FFE1 100%);
 
     }
 
-    .py-30 {
+    .px-30 {
         padding-top: 10px;
         padding-bottom: 10px;
     }
